@@ -1,0 +1,50 @@
+{
+	"expert": "yes",
+	"cli": false,
+	"adapterName": "victron-vrm",
+	"title": "Victron-VRM",
+	"description": "Victron VRM communication",
+	"keywords": [
+		"Victron VRM Portal"
+	],
+	"contributors": "",
+	"authorName": "Ole Sanmann",
+	"authorGithub": "OleSanmann",
+	"authorEmail": "Ole@sanmann.eu",
+	"features": [
+		"adapter"
+	],
+	"adminFeatures": [],
+	"type": "protocols",
+	"startMode": "daemon",
+	"connectionType": "cloud",
+	"dataSource": "poll",
+	"connectionIndicator": "yes",
+	"adapterSettings": [
+		{
+			"key": "option1",
+			"defaultValue": true,
+			"inputType": "checkbox"
+		},
+		{
+			"key": "option2",
+			"defaultValue": "42",
+			"inputType": "text"
+		}
+	],
+	"language": "TypeScript",
+	"nodeVersion": "14",
+	"adminUi": "json",
+	"releaseScript": "yes",
+	"indentation": "Tab",
+	"quotes": "double",
+	"es6class": "yes",
+	"tools": [
+		"ESLint"
+	],
+	"gitRemoteProtocol": "HTTPS",
+	"license": "MIT License",
+	"dependabot": "yes",
+	"target": "github",
+	"creatorVersion": "2.3.0"
+}
